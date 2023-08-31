@@ -1,3 +1,2 @@
 #!/bin/bash
-root=$(whoami)
-echo "The effective usrename is: $root"
+echo "The effective usrename is: $(whoami)"
