@@ -1,5 +1,3 @@
 #!/bin/bash
-#get the effective usernane and snd store it in a variable 
-#root=$(whoami)
-#print the effective username 
-echo "the effective usernane is: $root"  
+root=$(whoami)
+echo "The effective usrename is: $root"
